@@ -1,4 +1,4 @@
-# LangGraph入门
+# LangGraph基础概念
 ## State
 State是一个共享的数据结构，它保存整个应用程序的当前信息或上下文。简单来说，它就像应用程序的内存，跟踪节点在执行时可以访问和修改的变量和数据。
 
@@ -38,3 +38,19 @@ Runnable是一种经过标准化处理的，可执行的组建，它能在应用
 - Function Message：表示function call的结果
 - AI Message：表示AI模型生成的回复
 - Tool Message：类似Function MEssage，但是是针对具体的工具使用
+
+# Demo
+ReAct.py对应流程图
+
+![](./Agents/ReAct_Agent_Graph.png)
+
+
+Drafter.py对应流程图
+
+![](./Agents/Drafter.png)
+
+RAG_Agent.py对应流程图
+
+![](./Agents/RAG_Agent.png)
+
+
